@@ -3,12 +3,14 @@ package ua.tqs;
 import org.junit.jupiter.api.Test;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.io.IOException;
 import java.util.Optional;
 
 class ProductFinderServiceTest {
 
     @Test
-    void whenValidId_thenReturnProduct() {
+    void whenValidId_thenReturnProduct() throws IOException {
         // 1. Mock
         ISimpleHttpClient mockClient = mock(ISimpleHttpClient.class);
         ProductFinderService service = new ProductFinderService(mockClient);
@@ -29,7 +31,7 @@ class ProductFinderServiceTest {
     }
 
     @Test
-    void whenInvalidId_thenReturnEmpty() {
+    void whenInvalidId_thenReturnEmpty() throws IOException {
         // 1. Mock
         ISimpleHttpClient mockClient = mock(ISimpleHttpClient.class);
         ProductFinderService service = new ProductFinderService(mockClient);

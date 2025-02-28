@@ -3,6 +3,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.IOException;
 import java.util.Optional;
 
 public class ProductFinderService {
@@ -16,7 +17,7 @@ public class ProductFinderService {
         this.httpClient = httpClient;
     }
 
-    public Optional<Product> findProductDetails(int productId) {
+    public Optional<Product> findProductDetails(int productId) throws IOException {
         String url = API_PRODUCTS + "/" + productId;
         String responseJson = httpClient.doHttpGet(url);
 

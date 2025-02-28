@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ua.tqs</groupId>
-  <artifactId>lab2_2conversionmethodbehavior</artifactId>
+  <artifactId>lab2_2and2_3</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>lab2_2conversionmethodbehavior</name>
+  <name>lab2_2and2_3</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -50,6 +50,11 @@
       <version>RELEASE</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.13</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -61,7 +66,18 @@
       <plugin>
         <artifactId>maven-failsafe-plugin</artifactId>
         <version>3.1.2</version>
+        <executions>
+          <execution>
+            <id>integration-tests</id>
+            <phase>integration-test</phase>
+            <goals>
+              <goal>integration-test</goal>
+              <goal>verify</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
+
     </plugins>
   </build>
 </project>
