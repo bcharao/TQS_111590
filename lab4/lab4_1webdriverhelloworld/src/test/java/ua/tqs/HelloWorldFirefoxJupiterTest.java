@@ -1,4 +1,56 @@
 package ua.tqs;
 
-public class HelloWorldFirefoxJupiterTest {
+import io.github.bonigarcia.seljup.SeleniumJupiter;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+@ExtendWith(SeleniumJupiter.class) // Usa Selenium-Jupiter para injeção do WebDriver
+class HelloWorldFirefoxJupiterTest {
+
+    static final Logger log = LoggerFactory.getLogger(HelloWorldFirefoxJupiterTest.class);
+
+    @BeforeAll
+    static void setupClass() {
+        // O Selenium-Jupiter já configura o WebDriver do Firefox automaticamente
+    }
+
+    @Test
+    void test(FirefoxDriver driver) { // O WebDriver é injetado automaticamente para Firefox
+        // Exercise
+        String sutUrl = "https://bonigarcia.dev/selenium-webdriver-java/";
+        driver.get(sutUrl);
+        String title = driver.getTitle();
+        log.debug("The title of {} is {}", sutUrl, title);
+
+        // Verify title
+        assertThat(title).isEqualTo("Hands-On Selenium WebDriver with Java");
+
+        // Navigate to "Slow calculator"
+        WebElement slowCalculatorLink = driver.findElement(By.linkText("Slow calculator"));
+        slowCalculatorLink.click();
+
+        // Espera para carregamento da página (pode ser substituído por WebDriverWait)
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+
+        // Verify if navigated correctly
+        String currentUrl = driver.getCurrentUrl();
+        log.debug("Navigated to URL: {}", currentUrl);
+        assertThat(currentUrl).contains("slow-calculator");
+
+        // Não há necessidade de chamar driver.quit(), pois Selenium-Jupiter gerencia isso automaticamente
+    }
 }

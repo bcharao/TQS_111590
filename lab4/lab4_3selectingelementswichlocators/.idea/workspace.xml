@@ -1,4 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ed16c44-0dc3-47e6-a2b1-afe07a29225b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/src/main/java/ua/tqs/EmployeeManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/src/test/java/ua/tqs/HelloWorldChromeJupiterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/src/test/java/ua/tqs/HelloWorldFirefoxJupiterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/src/test/java/ua/tqs/Lab42Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/src/test/java/ua/tqs/Lab42TestRefactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_3pageobjectpattern/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/tqs/BookSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/tqs/BookSearchTestNew.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2uDrVPuyYiQS6Vxc48ZB6pTkaRb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BookSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookSearchTestNew.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ed16c44-0dc3-47e6-a2b1-afe07a29225b" name="Changes" comment="" />
+      <created>1741794010794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741794010794</updated>
+      <workItem from="1741794011743" duration="294000" />
+      <workItem from="1741794311473" duration="1948000" />
+      <workItem from="1741874185966" duration="2137000" />
+      <workItem from="1741896956061" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

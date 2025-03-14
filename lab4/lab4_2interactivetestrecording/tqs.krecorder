@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>tqs</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://blazedemo.com/<datalist><option>https://blazedemo.com/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//input[@value='Find Flights']<datalist><option>xpath=//input[@value='Find Flights']</option><option>xpath=//input</option><option>css=input.btn.btn-primary</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//tr[3]/td/input<datalist><option>xpath=//tr[3]/td/input</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=inputName<datalist><option>id=inputName</option><option>name=inputName</option><option>xpath=//input[@id='inputName']</option><option>xpath=//div/input</option><option>css=#inputName</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=inputName<datalist><option>id=inputName</option><option>name=inputName</option><option>xpath=//input[@id='inputName']</option><option>xpath=//div/input</option><option>css=#inputName</option></datalist></td><td>Bruo</td></tr>
+<tr><td>click</td><td>id=inputName<datalist><option>id=inputName</option><option>name=inputName</option><option>xpath=//input[@id='inputName']</option><option>xpath=//div/input</option><option>css=#inputName</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=inputName<datalist><option>id=inputName</option><option>name=inputName</option><option>xpath=//input[@id='inputName']</option><option>xpath=//div/input</option><option>css=#inputName</option></datalist></td><td>Bruno</td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::div[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your flight from TLV to SFO has been reserved.'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/preceding::div[2]</option><option>xpath=//form/div[2]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=address<datalist><option>id=address</option><option>name=address</option><option>xpath=//input[@id='address']</option><option>xpath=//div[2]/div/input</option><option>css=#address</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=address<datalist><option>id=address</option><option>name=address</option><option>xpath=//input[@id='address']</option><option>xpath=//div[2]/div/input</option><option>css=#address</option></datalist></td><td>123 Main st</td></tr>
+<tr><td>type</td><td>id=city<datalist><option>id=city</option><option>name=city</option><option>xpath=//input[@id='city']</option><option>xpath=//div[3]/div/input</option><option>css=#city</option></datalist></td><td>Curitiba</td></tr>
+<tr><td>click</td><td>xpath=//body<datalist><option>xpath=//body</option><option>css=body</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=state<datalist><option>id=state</option><option>name=state</option><option>xpath=//input[@id='state']</option><option>xpath=//div[4]/div/input</option><option>css=#state</option></datalist></td><td>Parana</td></tr>
+<tr><td>type</td><td>id=zipCode<datalist><option>id=zipCode</option><option>name=zipCode</option><option>xpath=//input[@id='zipCode']</option><option>xpath=//div[5]/div/input</option><option>css=#zipCode</option></datalist></td><td>12345</td></tr>
+<tr><td>type</td><td>id=creditCardNumber<datalist><option>id=creditCardNumber</option><option>name=creditCardNumber</option><option>xpath=//input[@id='creditCardNumber']</option><option>xpath=//div[7]/div/input</option><option>css=#creditCardNumber</option></datalist></td><td>12312321</td></tr>
+<tr><td>click</td><td>id=creditCardMonth<datalist><option>id=creditCardMonth</option><option>name=creditCardMonth</option><option>xpath=//input[@id='creditCardMonth']</option><option>xpath=//div[8]/div/input</option><option>css=#creditCardMonth</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=nameOnCard<datalist><option>id=nameOnCard</option><option>name=nameOnCard</option><option>xpath=//input[@id='nameOnCard']</option><option>xpath=//div[10]/div/input</option><option>css=#nameOnCard</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=nameOnCard<datalist><option>id=nameOnCard</option><option>name=nameOnCard</option><option>xpath=//input[@id='nameOnCard']</option><option>xpath=//div[10]/div/input</option><option>css=#nameOnCard</option></datalist></td><td>bino</td></tr>
+<tr><td>click</td><td>id=rememberMe<datalist><option>id=rememberMe</option><option>name=rememberMe</option><option>xpath=//input[@id='rememberMe']</option><option>xpath=//label/input</option><option>css=#rememberMe</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//input[@value='Purchase Flight']<datalist><option>xpath=//input[@value='Purchase Flight']</option><option>xpath=//div[11]/div/input</option><option>css=input.btn.btn-primary</option></datalist></td><td></td></tr>
+<tr><td>assertTitle</td><td>BlazeDemo Confirmation<datalist><option>BlazeDemo Confirmation</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

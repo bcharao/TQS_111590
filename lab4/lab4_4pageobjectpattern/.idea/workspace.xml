@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b267154-f9bb-400e-bbdb-8fcd686854e0" name="Changes" comment="">
+    <list default="true" id="494a1338-b211-4b6b-8ae8-e3e1ee8b1beb" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lab3/lab3_1employeemanager/pom.xml" afterDir="false" />
@@ -14,16 +14,21 @@
       <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/src/test/java/ua/tqs/HelloWorldChromeJupiterTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab4_1webdriverhelloworld/src/test/java/ua/tqs/HelloWorldFirefoxJupiterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/tqs/Lab42Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/tqs/Lab42TestRefactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/src/test/java/ua/tqs/Lab42Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_2interactivetestrecording/src/test/java/ua/tqs/Lab42TestRefactor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/src/main/java/ua/tqs/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/src/test/java/ua/tqs/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/src/test/java/ua/tqs/BookSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_3selectingelementswichlocators/src/test/java/ua/tqs/BookSearchTestNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_5browservariations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_5browservariations/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_5browservariations/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4_5browservariations/src/test/java/ua/tqs/DockerBrowserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +46,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2uDea7vomMkCnZDcXI7zaU8cMgG" />
+  <component name="ProjectId" id="2uGY8A68UdGLa1fC7Ws5e6GRvIU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Lab42TestRefactor.executor": "Run",
-    "JUnit.Lab42Test.executor": "Run",
-    "JUnit.Lab42TestRefactor.executor": "Run",
+    "JUnit.BlazeDemoTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bruno-charao/Universidade/3 ano/Segundo Semestre/TQS/TQS_111590/lab4/lab4_5browservariations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +70,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lab4_4pageobjectpattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,13 +89,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b267154-f9bb-400e-bbdb-8fcd686854e0" name="Changes" comment="" />
-      <created>1741787634558</created>
+      <changelist id="494a1338-b211-4b6b-8ae8-e3e1ee8b1beb" name="Changes" comment="" />
+      <created>1741876220778</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741787634558</updated>
-      <workItem from="1741787635510" duration="2043000" />
-      <workItem from="1741792637914" duration="1488000" />
+      <updated>1741876220778</updated>
+      <workItem from="1741876221723" duration="146000" />
+      <workItem from="1741876373359" duration="257000" />
+      <workItem from="1741876636729" duration="1167000" />
+      <workItem from="1741894939532" duration="649000" />
+      <workItem from="1741896990401" duration="188000" />
+      <workItem from="1741897187575" duration="1396000" />
+      <workItem from="1741898804027" duration="575000" />
+      <workItem from="1741899390322" duration="111000" />
     </task>
     <servers />
   </component>
