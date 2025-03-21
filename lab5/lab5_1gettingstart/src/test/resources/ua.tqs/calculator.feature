@@ -7,8 +7,8 @@ Feature: Basic Arithmetic
     When I add 4 and 5
     Then the result is 9
 
-  Scenario: Substraction
-    When I substract 7 to 2
+  Scenario: Subtraction
+    When I subtract 7 and 2
     Then the result is 5
 
   Scenario: Multiplication
@@ -16,11 +16,11 @@ Feature: Basic Arithmetic
     Then the result is 12
 
   Scenario: Division
-    When i divide 4 by 2
+    When I divide 4 by 2
     Then the result is 2
 
   Scenario: Division by 0
-    When i divide 4 by 0
+    When I divide 4 by 0
     Then the result is an error
 
   Scenario Outline: Several additions
@@ -32,8 +32,8 @@ Feature: Basic Arithmetic
       | 1 | 2 | 3  |
       | 3 | 7 | 10 |
 
-  Scenario Outline: Several substraction
-    When I substract <a> and <b>
+  Scenario Outline: Several subtraction
+    When I subtract <a> and <b>
     Then the result is <c>
 
     Examples: Single digits

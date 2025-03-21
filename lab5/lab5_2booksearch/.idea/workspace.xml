@@ -1,4 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66ba1252-2bc9-4226-8f83-ca8aaf781845" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/src/main/java/ua/tqs/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/src/test/java/ua/tqs/CalculatorSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/src/test/java/ua/tqs/CucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5_1gettingstart/src/test/resources/ua.tqs/calculator.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/tqs/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/tqs/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/tqs/BookSearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/tqs/BookSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ua.tqs/book.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2uZwBxqOCz5lQjksu8EtSdeA11t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in lab5_2booksearch (1).executor": "Run",
+    "JUnit.All in lab5_2booksearch.executor": "Coverage",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bruno-charao/Universidade/3 ano/Segundo Semestre/TQS/TQS_111590/lab5/lab5_2booksearch",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.All in lab5_2booksearch (1)">
+    <configuration name="All in lab5_2booksearch (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab5_2booksearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in lab5_2booksearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab5_2booksearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in lab5_2booksearch (1)" />
+        <item itemvalue="JUnit.All in lab5_2booksearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66ba1252-2bc9-4226-8f83-ca8aaf781845" name="Changes" comment="" />
+      <created>1742469274541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742469274541</updated>
+      <workItem from="1742469275633" duration="1032000" />
+      <workItem from="1742470360358" duration="108000" />
+      <workItem from="1742470475356" duration="366000" />
+      <workItem from="1742470866696" duration="673000" />
+      <workItem from="1742550919686" duration="1507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab5_2booksearch$All_in_lab5_2booksearch__1_.ic" NAME="All in lab5_2booksearch (1) Coverage Results" MODIFIED="1742470908740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
 </project>
